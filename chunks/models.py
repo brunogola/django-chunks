@@ -13,3 +13,7 @@ class Chunk(models.Model):
 
     def __unicode__(self):
         return u"%s" % (self.key,)
+
+    class Meta:
+        verbose_name = "Include"
+        verbose_name_plural = "Includes"
